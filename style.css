@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@400;700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: "Jost", sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url("images/abstract-background-acrylic-paint_6091-2355.avif")
+no-repeat center center/cover;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+padding: 0 20px;
+}
+
+.todo-app {
+width: 100%;
+max-width: 400px;
+padding: 2rem;
+display: flex; 
+align-items: center;
+justify-content: center; 
+flex-direction: column;
+gap: 30px;
+color: #946464;
+border-radius: 20px;
+box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+border: 3px solid rgba(255, 255, 255, 0.18);
+backdrop-filter: blur(10px);
+}
+
+.todo-app h1 {
+font-size: 2rem;
+}
+
+.input-area {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+.input-area input {
+flex: 1;
+padding: 10px 17px;
+font-size: 1.1rem;
+border: none;
+outline: none;
+border-radius: 22px;
+background-color: rgba(255, 194, 209, 0.3);
+color: #7e7d7c;
+}
+
+.input-area input::placeholder {
+color: #a7a6a5;
+}
+
+.input-area button {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+padding: 5px;
+border-radius: 20%;
+color: #c4c0c0;
+font-size: 1.1rem;
+background-color: #e4e7e736;
+border: 2px solid;
+cursor: pointer;
+transition: all 0.2s ease; 
+}
+
+.input-area button:hover {
+transform: scale(1.1);
+background: #c7cdce;
+}
+
+.todos-container {
+display: flex;
+align-items:center;
+justify-content: center;
+}
+
+#task-list {
+width: 100%;
+}
